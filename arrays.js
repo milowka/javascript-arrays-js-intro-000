@@ -27,19 +27,19 @@ function destructivelyRemoveElementFromBeginningOfArray (array) {
   array.shift();
   return array
 }
-var array = [1,2,3]
+var array = [1,2,3];
 function removeElementFromBeginningOfArray (array){
   array = array.slice(1)
   return array
 }
-var array =[1,2,3]
+var array =[1,2,3];
 function destructivelyRemoveElementFromEndOfArray (array){
   array.pop();
   return array
 }
 
+var array =[1,2,3];
 function removeElementFromEndOfArray (array) {
-  var array = [1,2,3]
   array.slice(0, array.length-1)
   return array
 }
